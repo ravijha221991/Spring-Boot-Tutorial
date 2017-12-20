@@ -13,7 +13,7 @@ import com.springbootwelcom.util.Gender;
 @Table(name="employee")
 public class Employee {
 	@Id
-	@GeneratedValue
+	@GeneratedValue 
 	private Long id;
 	
 	private String name;
